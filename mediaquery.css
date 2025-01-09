@@ -1,0 +1,472 @@
+@media only screen and (max-width: 600px) {
+    .navbar .menu {
+        display: none;
+    }
+
+    .navbar h2 {
+        font-size: 17px;
+        text-transform: capitalize;
+        font-weight: 500;
+    }
+}
+
+.navbar .ic i {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar .ic i {
+        display: block;
+    }
+
+}
+
+/* Media Query for screens 480px and smaller */
+@media screen and (max-width: 480px) {
+    .home {
+        width: 100%;
+        padding: 100px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: auto;
+    }
+
+    .text1 {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .icon1 {
+        justify-content: center;
+    }
+
+    .btons {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .imger img {
+        width: 100%;
+        height: auto;
+    }
+
+    .btons button {
+        width: 40%;
+    }
+
+    .text1 h2 {
+        font-size: 25px;
+        text-transform: capitalize;
+    }
+
+    .text1 p {
+        font-size: 11px;
+        text-align: center;
+    }
+
+    .text1 {
+        color: white;
+        /* background-color: aqua; */
+        width: 18rem;
+        height: auto;
+    }
+
+    .imger img {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        object-fit: cover;
+        object-position: center;
+        border: 1px solid aqua;
+        box-shadow: 0 0 24px aqua;
+        transition: 0.5s;
+    }
+}
+
+
+/* Mobile Responsiveness (for screens 480px and smaller) */
+@media screen and (max-width: 480px) {
+
+    /* Adjust padding and font size for the education section */
+    .education {
+        padding: 50px 20px;
+    }
+
+    .education .cen {
+        font-size: 28px;
+        /* Reduce the font size for small screens */
+        padding-bottom: 2rem;
+    }
+
+    /* Modify the line under the title */
+    /* .education .cen::after {
+        left: 20%;
+        width: 60%;
+        transform: translateX(0%, -10%);
+    } */
+
+    /* Make the .ed1 container more compact */
+    .ed1 {
+        padding: 0 10px;
+    }
+
+    /* Make the boxes stack vertically */
+    .box {
+        height: auto;
+        width: 100%;
+        /* Make each box take full width */
+        margin-bottom: 20px;
+        /* Add space between each box */
+    }
+
+    .right,
+    .left {
+        left: 0%;
+        /* Align both boxes in the center */
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+
+
+    /* Adjust the box1 padding for mobile */
+    .box1 {
+        padding: 12px;
+        /* Make the boxes a bit smaller */
+    }
+
+    /* Adjust text inside the boxes */
+    .box1 h2 {
+        font-size: 1.2em;
+    }
+
+    .box1 p {
+        font-size: 0.9em;
+        /* Reduce the paragraph font size */
+    }
+
+    /* Modify hover effect for box1 on mobile */
+    .box1:hover {
+        box-shadow: 0 0 15px aqua;
+        transform: scale(1.01);
+    }
+
+    /* Optional: Adjust h3 font size */
+    .box h3 {
+        font-size: 1em;
+        /* Make headings smaller */
+    }
+
+    .dot::after {
+        display: none;
+
+    }
+
+    .dot1::before {
+        display: none;
+    }
+
+    .ed1::before {
+        display: none;
+    }
+}
+
+/* Mobile Responsiveness (for screens 480px and smaller) */
+@media screen and (max-width: 480px) {
+
+    /* Adjust the padding of the skills section */
+    .skills {
+        padding: 20px;
+    }
+
+    /* Adjust title font size and padding */
+    .skils1 {
+        font-size: 28px;
+        /* Reduce font size for smaller screens */
+        padding-bottom: 1rem;
+    }
+
+    /* Modify the underline below the title */
+    .skils1::after {
+        left: 20%;
+        width: 60%;
+        transform: translateX(0%, -10%);
+    }
+
+    /* Make the grid items stack vertically */
+    .skil-grid {
+        grid-template-columns: 1fr;
+        /* Stack items vertically */
+        gap: 15px;
+        /* Reduced gap between items */
+    }
+
+    /* Adjust the text inside the skill boxes */
+    .skil-grid3 h2 {
+        font-size: 1.2em;
+        /* Reduce the font size for headings */
+    }
+
+    .skil-grid3 p {
+        font-size: 0.9em;
+        /* Reduce the font size for paragraphs */
+    }
+
+    /* Adjust padding for individual boxes */
+    .skil-grid3 {
+        padding: 40px;
+        height: auto;
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile Responsiveness (for screens 480px and smaller) */
+@media screen and (max-width: 480px) {
+
+    /* Adjust the padding of the testimonials section */
+    .testimonals {
+        padding: 50px 20px;
+    }
+
+    /* Adjust title font size and padding */
+    .test1 {
+        font-size: 28px;
+        /* Reduce font size for smaller screens */
+        padding-bottom: 2rem;
+    }
+
+    /* Modify the underline below the title */
+    .test1::after {
+        left: 20%;
+        width: 60%;
+        transform: translateX(0%, -10%);
+    }
+
+    /* Stack the testimonials vertically */
+    .test2 {
+        flex-direction: column;
+        /* Stack items vertically */
+        align-items: center;
+    }
+
+    /* Adjust each testimonial box to take full width */
+    .a1,
+    .a2,
+    .a3 {
+        width: 306px;
+        height: 378px;
+        background-color: black;
+        border-radius: 10px;
+        box-shadow: 2px 2px 6px black;
+        border: 3px solid aqua;
+        transition: 0.5s;
+        /* Make each testimonial take up most of the screen */
+    }
+
+    /* Adjust the image size */
+    .a1 img,
+    .a2 img,
+    .a3 img {
+        width: 32%;
+        /* Make the images smaller */
+        margin-bottom: 15px;
+    }
+
+    /* Adjust text size for the testimonials */
+    .a1 h2,
+    .a2 h2,
+    .a3 h2 {
+        font-size: 1.2em;
+        /* Reduce heading font size */
+    }
+
+    .a1 p,
+    .a2 p,
+    .a3 p {
+        font-size: 0.9em;
+        /* Reduce paragraph font size */
+    }
+
+    /* Adjust icon size */
+    .icons3 i {
+        font-size: 1.2em;
+        /* Reduce icon size */
+    }
+
+    /* Optional: Reduce hover effect size on mobile */
+    .a1:hover,
+    .a2:hover,
+    .a3:hover {
+        transform: scale(1.03);
+        /* Less exaggerated hover effect */
+    }
+}
+
+
+
+/* Mobile Responsiveness (for screens 480px and smaller) */
+@media screen and (max-width: 480px) {
+
+    /* Adjust the padding of the contact section */
+    .contact {
+        padding: 50px 10px;
+    }
+
+
+
+    /* Adjust title font size and padding */
+    .contatitle {
+        font-size: 28px;
+        /* Reduce font size for smaller screens */
+        padding-bottom: 2rem;
+    }
+
+
+
+    /* Adjust width of the form */
+    .con2 {
+        width: 100%;
+        display: block;
+        /* Make the contact form take up more space */
+    }
+
+
+    form input,
+    form textarea {
+        font-size: 0.9em;
+        /* Reduce font size for inputs and text areas */
+        padding: 8px;
+        /* width: 100%;
+        height: auto; */
+
+    }
+
+    form button {
+        font-size: 1em;
+        /* Adjust button font size */
+        padding: 30px 15px;
+    }
+
+    .nom button {
+        margin-top: 4%;
+
+    }
+
+    .con2 form {
+        width: 100%;
+        height: auto;
+        /* border: 1px solid forestgreen; */
+    }
+}
+
+
+
+/* Mobile Responsiveness (for screens 480px and smaller) */
+@media screen and (max-width: 480px) {
+    .footer {
+        padding: 30px 10px;
+        /* Reduce padding for mobile */
+    }
+
+    /* Stack icons vertically */
+
+
+    .footer .icons4 i {
+        width: 30px;
+        height: 30px;
+        border: 2px solid aqua;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: aqua;
+        border-radius: 50%;
+        transition: 0.5s;
+    }
+
+    /* Increase size of icons on mobile */
+
+
+    /* Stack menu items vertically */
+
+
+    .footer .menu4 a {
+        font-size: 1.2em;
+        display: none;
+        /* Slightly increase font size for readability */
+    }
+
+    /* Adjust the copyright text */
+    .footer .title4 {
+        font-size: 0.9em;
+        /* Make copyright text a bit smaller */
+        margin-top: 20px;
+    }
+}
+
+
+.mmm {
+    width: 50%;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    background-color: black;
+    left: -55%;
+    transition:ease all 0.5s;
+    z-index: 2;
+
+}
+
+.mmm h2 {
+    color: white;
+    text-transform: capitalize;
+    white-space: nowrap;
+    font-size: 18px;
+}
+
+.mmm h2 span {
+    color: aqua;
+}
+
+.ct {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.close {
+    color: white;
+    cursor: pointer;
+    padding: 10px 15px;
+    font-size: 40px;
+
+}
+
+.mmm a {
+    display: block;
+    padding: 30px 15px;
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+
+}
+.mmm a:hover{
+    /* background-color: crimson; */
+    color: aqua;
+}
+
+.smenu{
+    left: 0%;
+}
